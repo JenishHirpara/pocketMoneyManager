@@ -72,7 +72,7 @@ function func(){
       close[k].onclick = function Hello() {
       var div = this.style.display = "none";
       total = total - y[k];
-      z = x - total;
+      z = x + y[k];
       document.getElementById('demo2').innerHTML = total ;
       document.getElementById('demo3').innerHTML = z ;
 
