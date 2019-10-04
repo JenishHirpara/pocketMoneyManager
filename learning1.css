@@ -1,0 +1,102 @@
+
+
+h1.mainheading{
+text-decoration:underline;
+text-align:center;
+margin-top:40px;
+margin-bottom:30px;
+color:#222;
+font-size:50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+
+div.input{
+float:left;
+margin:30px;
+width:28%;
+height:auto;
+}
+
+.inputstyle{
+font-size:32px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-bottom:7px;
+color:#333;
+}
+
+input{
+padding:8px;
+}
+
+div.output{
+float:left;
+margin-left:10px;
+height:auto;
+}
+
+div.outputincome{
+float:left;
+margin-right:200px;
+}
+
+
+  
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+ul li {
+cursor: pointer;
+position: relative;
+padding: 12px 8px 12px 40px;
+list-style-type: none;
+background: #eee;
+font-size: 18px;
+transition: 0.2s;
+    
+  }
+  
+  
+ul li:nth-child(odd) {
+background: #f9f9f9;
+  }
+  
+  
+ul li:hover {
+background: #ddd;
+  }
+
+  #demo1{
+font-size:50px;
+color:green;
+
+}
+#demo2{
+font-size:50px;
+color:red;
+    
+}
+#demo3{
+font-size:50px;
+color:green;
+    
+}
+
+div.incomeborder{
+border: 2px double green; 
+
+}
+div.expenseborder{
+border: 2px double red; 
+border-top:green;
+   }
+
+li{
+font-size:40px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+color:red;
+}
+  

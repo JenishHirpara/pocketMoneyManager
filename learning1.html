@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="author" content="Jenish Hirpara">
+<link rel="stylesheet" href="learning1.css">
+<script src="learning1.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+Pocket money manager
+</title>
+</head>
+
+
+<body>
+<h1 class="mainheading">Pocket Money Manager </h1>    
+<div class="input">
+   <form>
+        <div class="incomeborder">
+         <p class="inputstyle" style="text-align:center">Enter income:</p>
+         <input type="number" name="income" id="income" placeholder="Type number here." style="margin-left:100px;"><br>
+         <input type="button" value="submit" id="submit1" onclick="func1()" style="margin-left:100px"><br><br><br>
+        </div> 
+        <div class="expenseborder">
+         <p class="inputstyle" style="text-align:center">Enter expense type:</p>
+         <input type="text" name="expensetype" id="expensetype" placeholder="Type text here." style="margin-left:100px"><br><br><br>
+         <p class="inputstyle" style="text-align:center">Enter expenses:</p>
+         <input type="number" name="expense" id="expense" placeholder="Type number here." style="margin-left:100px"><br>
+         <input type="button" value="submit" id="submit3" onclick="func()" style="margin-left:100px"><br><br><br>
+        </div> 
+
+   </form>
+</div>
+<div class="output">
+    <div class="outputincome">
+        <h3 class="inputstyle">Income</h3><br><br>
+        <i class="fa fa-rupee" style="font-size:48px;color:green"></i>
+        <p id="demo1">0</p>
+    </div>
+    <div class="outputincome">
+            <h3 class="inputstyle">Expense</h3><br><br>
+            <i class="fa fa-rupee" style="font-size:48px;color:red"></i>
+            <p id="demo2">0</p>
+            <ul id="myUL">
+            </ul>
+    </div>
+    <div class="outputincome">
+            <h3 class="inputstyle">Savings</h3><br><br>
+            <i class="fa fa-rupee" style="font-size:48px;color:green"></i>
+            <p id="demo3">0</p>
+    </div>
+
+</div>
+</body>
+</html>
